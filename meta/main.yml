@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: tomcat
   author: Simon Leigh，Clay
   description: Apache ZooKeeper installation for RHEL / CentOS 7
   license: MIT
