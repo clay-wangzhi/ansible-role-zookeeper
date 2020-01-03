@@ -68,6 +68,7 @@ No dependencies
   roles:
   - role: clay_wangzhi.zookeeper
     zookeeper_version: 3.4.14
+    zookeeper_mirror: "https://mirrors.tuna.tsinghua.edu.cn/apache/zookeeper"
     zookeeper_servers: "{{groups['zookeeper-nodes']}}"
     zookeeper_environment:
       "JAVA_HOME": "/opt/jdk1.8.0_144"
