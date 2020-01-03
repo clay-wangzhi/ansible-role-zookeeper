@@ -74,6 +74,21 @@ No dependencies
       "JAVA_HOME": "/opt/jdk1.8.0_144"
 ```
 
+example for ansible host.yml
+
+```
+ zookeeper-nodes:
+      hosts:
+        192.168.167.57:
+          zookeeper_id: 1
+        192.168.167.238:
+          zookeeper_id: 2
+        192.168.167.67:
+          zookeeper_id: 3
+```
+
+
+
 ## License
 
 MIT
